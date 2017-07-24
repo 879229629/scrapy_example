@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOT_NAME	../scrapy_example/settings.py	/^BOT_NAME = 'scrapy_example'$/;"	kind:variable	line:12
+ExampleSpider	../scrapy_example/spiders/example.py	/^class ExampleSpider(scrapy.Spider):$/;"	kind:class	line:5
+NEWSPIDER_MODULE	../scrapy_example/settings.py	/^NEWSPIDER_MODULE = 'scrapy_example.spiders'$/;"	kind:variable	line:15
+ROBOTSTXT_OBEY	../scrapy_example/settings.py	/^ROBOTSTXT_OBEY = True$/;"	kind:variable	line:22
+SPIDER_MODULES	../scrapy_example/settings.py	/^SPIDER_MODULES = ['scrapy_example.spiders']$/;"	kind:variable	line:14
+ScrapyExampleItem	../scrapy_example/items.py	/^class ScrapyExampleItem(scrapy.Item):$/;"	kind:class	line:11
+ScrapyExamplePipeline	../scrapy_example/pipelines.py	/^class ScrapyExamplePipeline(object):$/;"	kind:class	line:9
+ScrapyExampleSpiderMiddleware	../scrapy_example/middlewares.py	/^class ScrapyExampleSpiderMiddleware(object):$/;"	kind:class	line:11
+__init__.py	../scrapy_example/__init__.py	1;"	kind:file	line:1
+__init__.py	../scrapy_example/spiders/__init__.py	1;"	kind:file	line:1
+allowed_domains	../scrapy_example/spiders/example.py	/^    allowed_domains = ['example.com']$/;"	kind:variable	line:7
+example.py	../scrapy_example/spiders/example.py	1;"	kind:file	line:1
+from_crawler	../scrapy_example/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:17
+items.py	../scrapy_example/items.py	1;"	kind:file	line:1
+middlewares.py	../scrapy_example/middlewares.py	1;"	kind:file	line:1
+name	../scrapy_example/spiders/example.py	/^    name = 'example'$/;"	kind:variable	line:6
+parse	../scrapy_example/spiders/example.py	/^    def parse(self, response):$/;"	kind:member	line:10
+pipelines.py	../scrapy_example/pipelines.py	1;"	kind:file	line:1
+process_item	../scrapy_example/pipelines.py	/^    def process_item(self, item, spider):$/;"	kind:member	line:10
+process_spider_exception	../scrapy_example/middlewares.py	/^    def process_spider_exception(self, response, exception, spider):$/;"	kind:member	line:38
+process_spider_input	../scrapy_example/middlewares.py	/^    def process_spider_input(self, response, spider):$/;"	kind:member	line:23
+process_spider_output	../scrapy_example/middlewares.py	/^    def process_spider_output(self, response, result, spider):$/;"	kind:member	line:30
+process_start_requests	../scrapy_example/middlewares.py	/^    def process_start_requests(self, start_requests, spider):$/;"	kind:member	line:46
+scrapy	../scrapy_example/items.py	/^import scrapy$/;"	kind:namespace	line:8
+scrapy	../scrapy_example/spiders/example.py	/^import scrapy$/;"	kind:namespace	line:2
+settings.py	../scrapy_example/settings.py	1;"	kind:file	line:1
+signals	../scrapy_example/middlewares.py	/^from scrapy import signals$/;"	kind:namespace	line:8
+spider_opened	../scrapy_example/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:55
+start_urls	../scrapy_example/spiders/example.py	/^    start_urls = ['http:\/\/example.com\/']$/;"	kind:variable	line:8
